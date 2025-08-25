@@ -3,14 +3,17 @@ import { ref } from 'vue';
 import Ex1 from './components/Ex1.vue';
 import Ex2 from './components/Ex2.vue';
 import Ex3 from './components/Ex3.vue';
+import A1 from './components/A1.vue';
 
-const pages = { Ex1, Ex2, Ex3 }
+const pages = { A1, Ex1, Ex2, Ex3 }
 const activeComp = ref("Ex1")
 </script>
 
 <template>
   <h1>최지현_VUE 과제방</h1>
-  <h2>Day1_0825</h2>
+  <h2>Day1_0822</h2>
+  <button @click="activeComp = 'A1'">Hello world</button>
+  <h2>Day2_0825</h2>
   <button @click="activeComp = 'Ex1'">bind_바인드</button>
   <button @click="activeComp = 'Ex2'">if_이프</button>
   <button @click="activeComp = 'Ex3'">show_쇼우</button>
