@@ -6,7 +6,7 @@ import Ex3 from './components/Ex3.vue';
 import A1 from './components/A1.vue';
 
 const pages = { A1, Ex1, Ex2, Ex3 }
-const activeComp = ref("Ex1")
+const activeComp = ref("A1")
 </script>
 
 <template>
