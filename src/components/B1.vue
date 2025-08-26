@@ -77,13 +77,13 @@ const foods_assets = ref(
 
 const foods_public = ref(
     [
-        { name: '브리또', src: "/images/img_burrito.svg", },
-        { name: '샐러드', src: "/images/img_salad.svg", },
-        { name: '케이크', src: "/images/img_cake.svg", },
-        { name: '스프', src: "/images/img_soup.svg", },
-        { name: '생선', src: "/images/img_fish.svg", },
-        { name: '피자', src: "/images/img_pizza.svg", },
-        { name: '밥', src: "/images/img_rice.svg", },
+        { name: '브리또', src: "images/img_burrito.svg", },
+        { name: '샐러드', src: "images/img_salad.svg", },
+        { name: '케이크', src: "images/img_cake.svg", },
+        { name: '스프', src: "images/img_soup.svg", },
+        { name: '생선', src: "images/img_fish.svg", },
+        { name: '피자', src: "images/img_pizza.svg", },
+        { name: '밥', src: "images/img_rice.svg", },
 
     ]
 )
