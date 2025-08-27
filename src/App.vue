@@ -7,8 +7,12 @@ import A1 from './components/A1.vue';
 import B1 from './components/B1.vue'
 import B2 from './components/B2.vue';
 import vue from './assets/vue.svg';
+import C1 from './components/C1.vue';
+import C2 from './components/C2.vue';
+import C3 from './components/C3.vue';
+import C4 from './components/C4.vue';
 
-const pages = { A1, Ex1, Ex2, Ex3, B1, B2 }
+const pages = { A1, Ex1, Ex2, Ex3, B1, B2, C1, C2, C3, C4 }
 const activeComp = ref("A1")
 </script>
 
@@ -23,6 +27,11 @@ const activeComp = ref("A1")
   <h2>Day3_0826</h2>
   <button @click="activeComp = 'B1'">for_동안</button>
   <button @click="activeComp = 'B2'">event_이벤트</button>
+  <h2>Day4_0827</h2>
+  <button @click="activeComp = 'C1'">methods 메소드 구현</button>
+  <button @click="activeComp = 'C2'">model 양방향 바인딩</button>
+  <button @click="activeComp = 'C3'">computed 계산된 코드</button>
+  <button @click="activeComp = 'C4'">watchers 데이터 값 변경시, 감시자 실행</button>
 
 
   <div id="comp_view">
