@@ -11,8 +11,9 @@ import C1 from './components/C1.vue';
 import C2 from './components/C2.vue';
 import C3 from './components/C3.vue';
 import C4 from './components/C4.vue';
+import C5 from './components/C5.vue';
 
-const pages = { A1, Ex1, Ex2, Ex3, B1, B2, C1, C2, C3, C4 }
+const pages = { A1, Ex1, Ex2, Ex3, B1, B2, C1, C2, C3, C4, C5 }
 const activeComp = ref("A1")
 </script>
 
@@ -32,6 +33,7 @@ const activeComp = ref("A1")
   <button @click="activeComp = 'C2'">model 양방향 바인딩</button>
   <button @click="activeComp = 'C3'">computed 계산된 코드</button>
   <button @click="activeComp = 'C4'">watchers 데이터 값 변경시, 감시자 실행</button>
+  <button @click="activeComp = 'C5'">radio 하나만 선택하기</button>
 
 
   <div id="comp_view">
